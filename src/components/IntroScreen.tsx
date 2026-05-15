@@ -50,7 +50,7 @@ export function IntroScreen({ onEnter }: { onEnter: () => void }) {
               className="space-y-10"
             >
               <p className="tracking-cinematic text-xs text-muted-foreground uppercase">
-                — for you —
+                for you
               </p>
               <h1 className="font-serif text-4xl leading-tight text-balance text-foreground text-shadow-glow md:text-6xl lg:text-7xl">
                 Happy Birthday,

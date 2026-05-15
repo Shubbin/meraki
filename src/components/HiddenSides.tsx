@@ -4,7 +4,7 @@ const sides = [
   {
     no: "01",
     title: "Quiet humor",
-    body: "It arrives late and uninvited, in the middle of an unrelated sentence. A dry comment, a perfectly timed look — and suddenly the room has tilted half a degree warmer.",
+    body: "It arrives late and uninvited, in the middle of an unrelated sentence. A dry comment, a perfectly timed look, and suddenly the room has tilted half a degree warmer.",
   },
   {
     no: "02",
@@ -24,7 +24,7 @@ const sides = [
   {
     no: "05",
     title: "Observant by default",
-    body: "You notice the small things — a changed tone, a lighter mood, a chair pulled slightly closer. You catalogue them quietly, without ever making it a performance.",
+    body: "You notice the small things: a changed tone, a lighter mood, a chair pulled slightly closer. You catalogue them quietly, without ever making it a performance.",
   },
   {
     no: "06",
@@ -54,7 +54,7 @@ export function HiddenSides() {
 
         <Reveal delay={0.2}>
           <p className="mt-10 max-w-xl leading-relaxed text-muted-foreground">
-            Six small observations, gathered slowly. Not a description — more like the soft outline
+            Six small observations, gathered slowly. Not a description, more like the soft outline
             of someone seen carefully, over time.
           </p>
         </Reveal>

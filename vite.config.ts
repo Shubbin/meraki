@@ -4,8 +4,6 @@ import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 import { tanstackStartVite } from "@tanstack/react-start/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
-import cloudflare from "@cloudflare/vite-plugin";
-
 export default defineConfig({
   plugins: [
     TanStackRouterVite(),
@@ -17,6 +15,5 @@ export default defineConfig({
         entry: "src/server.ts",
       },
     }),
-    cloudflare(),
   ],
 });

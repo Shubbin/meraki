@@ -36,7 +36,7 @@ export function Hero() {
             className="tracking-cinematic mb-8 text-xs text-muted-foreground uppercase"
             style={{ color: "var(--beige)" }}
           >
-            chapter one — a quiet portrait
+            chapter one, a quiet portrait
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}

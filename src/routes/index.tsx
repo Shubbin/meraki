@@ -11,13 +11,13 @@ import { Finale } from "@/components/Finale";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "For Meraki — A Quiet Birthday" },
+      { title: "For Meraki, A Quiet Birthday" },
       {
         name: "description",
         content:
           "A cinematic, intimate birthday letter for someone whose depth is felt long before it's seen.",
       },
-      { property: "og:title", content: "For Meraki — A Quiet Birthday" },
+      { property: "og:title", content: "For Meraki, A Quiet Birthday" },
       {
         property: "og:description",
         content: "Some people are loud enough to be noticed. Others are quiet enough to be understood.",

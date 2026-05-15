@@ -51,7 +51,7 @@ const fragments: Frag[] = [
   },
   {
     src: m5,
-    caption: "ambient — the soundtrack of being around you",
+    caption: "ambient, the soundtrack of being around you",
     className: "md:col-span-5 md:col-start-7 md:row-start-3 md:mt-24 aspect-[4/5]",
     parallax: -50,
     w: 1280,
@@ -85,7 +85,7 @@ function Fragment({ frag }: { frag: Frag }) {
         <div className="absolute inset-0 bg-background/10 transition-opacity duration-700 group-hover:opacity-0" />
       </motion.div>
       <figcaption className="font-serif mt-4 max-w-xs text-sm text-muted-foreground italic">
-        — {frag.caption}
+        {frag.caption}
       </figcaption>
     </motion.figure>
   );

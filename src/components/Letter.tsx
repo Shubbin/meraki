@@ -4,11 +4,11 @@ import { Reveal } from "./Reveal";
 
 const paragraphs = [
   "There's a particular kind of quietness that people often mistake for absence. Yours isn't that. Yours is the kind that arrives early, sets the room at ease, and notices things long before anyone else thinks to look.",
-  "I've watched people meet you and form a first impression in seconds — careful, polite, a little reserved. And I've quietly enjoyed knowing how wrong they are. How much they're missing. How much there is to find, slowly, in the right kind of light.",
+  "I've watched people meet you and form a first impression in seconds: careful, polite, a little reserved. And I've quietly enjoyed knowing how wrong they are. How much they're missing. How much there is to find, slowly, in the right kind of light.",
   "They call you Meraki, and it fits. It's a word that means putting your soul, your creativity, and your love into everything you do. It's the way you leave a piece of yourself in every room you enter, every conversation you hold, and every silence you share.",
-  "But while the world calls you Meraki, I'll keep calling you Tinkerbell. Because beneath that quiet Meraki soul is a spark that most people don't see—a fierce loyalty, an independent spirit, and that subtle, fiery sass that reminds me of her. You're the one who makes the magic happen behind the scenes, small in presence but impossible to ignore once someone truly notices the light you carry.",
+  "But while the world calls you Meraki, I'll keep calling you Tinkerbell. Because beneath that quiet Meraki soul is a spark that most people don't see, a fierce loyalty, an independent spirit, and that subtle, fiery sass that reminds me of her. You're the one who makes the magic happen behind the scenes, small in presence but impossible to ignore once someone truly notices the light you carry.",
   "Meraki is the name you chose for yourself, a testament to your depth. Tinkerbell is the name I chose for you, a nod to the spark and the heart that I admire most. Both are true, but one is just for us.",
-  "If anyone deserves a year that is gentler than the last, slower where it should be slow, and warmer where it should be warm — it's you. May the people in this year see you the way the people closest to you already do.",
+  "If anyone deserves a year that is gentler than the last, slower where it should be slow, and warmer where it should be warm, it's you. May the people in this year see you the way the people closest to you already do.",
   "Happy birthday, Bakare Mujisat. My favorite Meraki, and my only Tinkerbell.",
 ];
 
@@ -61,7 +61,7 @@ export function Letter() {
             className="tracking-cinematic mb-6 text-center text-xs uppercase"
             style={{ color: "var(--beige)" }}
           >
-            chapter four — a letter
+            chapter four, a letter
           </p>
         </Reveal>
         <Reveal delay={0.1}>
@@ -84,7 +84,7 @@ export function Letter() {
         <Reveal delay={0.3}>
           <div className="mt-16 text-right">
             <p className="font-serif text-lg italic" style={{ color: "var(--beige)" }}>
-              — with quiet admiration
+              with quiet admiration
             </p>
           </div>
         </Reveal>

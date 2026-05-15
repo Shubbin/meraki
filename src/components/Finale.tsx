@@ -39,7 +39,7 @@ export function Finale() {
             className="tracking-cinematic mb-10 text-xs uppercase"
             style={{ color: "var(--beige)" }}
           >
-            — fin —
+            fin
           </p>
         </Reveal>
         <Reveal delay={0.2}>
