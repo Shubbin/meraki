@@ -63,7 +63,12 @@ export function Finale() {
             className="font-serif mt-4 text-5xl italic md:text-7xl lg:text-8xl"
             style={{ color: "var(--beige)" }}
           >
-            Tinker Bell.
+            Meraki.
+          </p>
+        </Reveal>
+        <Reveal delay={1.1}>
+          <p className="tracking-cinematic mt-6 text-xs text-muted-foreground/60 uppercase">
+            Bakare Mujisat
           </p>
         </Reveal>
 

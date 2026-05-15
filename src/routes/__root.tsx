@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "For Tinker Bell — A Quiet Birthday" },
+      { title: "For Meraki — A Quiet Birthday" },
       { name: "description", content: "A cinematic, intimate birthday letter." },
       { name: "author", content: "Quiet Depth" },
-      { property: "og:title", content: "For Tinker Bell — A Quiet Birthday" },
+      { property: "og:title", content: "For Meraki — A Quiet Birthday" },
       { property: "og:description", content: "A cinematic, intimate birthday letter." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -55,9 +55,12 @@ export function IntroScreen({ onEnter }: { onEnter: () => void }) {
               <h1 className="font-serif text-4xl leading-tight text-balance text-foreground text-shadow-glow md:text-6xl lg:text-7xl">
                 Happy Birthday,
                 <span className="mt-2 block italic" style={{ color: "var(--beige)" }}>
-                  Tinker Bell.
+                  Meraki.
                 </span>
               </h1>
+              <p className="tracking-cinematic text-[10px] text-muted-foreground/60 uppercase">
+                Bakare Mujisat
+              </p>
 
               {stage >= 2 && (
                 <motion.button

@@ -5,9 +5,11 @@ import { Reveal } from "./Reveal";
 const paragraphs = [
   "There's a particular kind of quietness that people often mistake for absence. Yours isn't that. Yours is the kind that arrives early, sets the room at ease, and notices things long before anyone else thinks to look.",
   "I've watched people meet you and form a first impression in seconds — careful, polite, a little reserved. And I've quietly enjoyed knowing how wrong they are. How much they're missing. How much there is to find, slowly, in the right kind of light.",
-  "The humor that only shows up after midnight. The opinions that arrive softly, then refuse to leave. The way you design things — and conversations, and rooms, and silences — like every detail is a decision you've already made twice.",
+  "They call you Meraki, and it fits. It's a word that means putting your soul, your creativity, and your love into everything you do. It's the way you leave a piece of yourself in every room you enter, every conversation you hold, and every silence you share.",
+  "But while the world calls you Meraki, I'll keep calling you Tinkerbell. Because beneath that quiet Meraki soul is a spark that most people don't see—a fierce loyalty, an independent spirit, and that subtle, fiery sass that reminds me of her. You're the one who makes the magic happen behind the scenes, small in presence but impossible to ignore once someone truly notices the light you carry.",
+  "Meraki is the name you chose for yourself, a testament to your depth. Tinkerbell is the name I chose for you, a nod to the spark and the heart that I admire most. Both are true, but one is just for us.",
   "If anyone deserves a year that is gentler than the last, slower where it should be slow, and warmer where it should be warm — it's you. May the people in this year see you the way the people closest to you already do.",
-  "Happy birthday, Tinker Bell. The quiet one with the loud heart.",
+  "Happy birthday, Bakare Mujisat. My favorite Meraki, and my only Tinkerbell.",
 ];
 
 function TypewriterParagraph({ text, delay = 0 }: { text: string; delay?: number }) {
