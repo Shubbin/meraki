@@ -15,8 +15,10 @@ export function Hero() {
         <img
           src={portrait}
           alt="Portrait"
-          className="img-cinematic h-full w-full object-cover"
+          className="img-cinematic h-full w-full object-cover object-top"
           fetchPriority="high"
+          loading="eager"
+          decoding="sync"
         />
       </motion.div>
 

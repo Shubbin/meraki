@@ -80,6 +80,7 @@ function Fragment({ frag }: { frag: Frag }) {
           width={frag.w}
           height={frag.h}
           loading="lazy"
+          decoding="async"
           className="img-cinematic h-full w-full object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.04]"
         />
         <div className="absolute inset-0 bg-background/10 transition-opacity duration-700 group-hover:opacity-0" />

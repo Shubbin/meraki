@@ -15,6 +15,7 @@ export function Finale() {
         muted
         loop
         playsInline
+        preload="auto"
         className="absolute inset-0 h-full w-full object-cover opacity-40 mix-blend-luminosity"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/60" />
