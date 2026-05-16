@@ -43,17 +43,16 @@
 :root {
   --radius: 0.5rem;
 
-  /* Cinematic charcoal palette */
-  --background: oklch(0.145 0 0);          /* #0D0D0D */
-  --foreground: oklch(0.965 0.005 95);     /* #F5F5F2 */
-  --surface: oklch(0.18 0 0);              /* #151515 */
-  --elevated: oklch(0.22 0 0);             /* card surface */
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.965 0.005 95);
+  --surface: oklch(0.18 0 0);
+  --elevated: oklch(0.22 0 0);
   --muted: oklch(0.2 0 0);
-  --muted-foreground: oklch(0.76 0.005 0); /* #B8B8B8 */
+  --muted-foreground: oklch(0.76 0.005 0);
   --divider: oklch(1 0 0 / 0.08);
-  --beige: oklch(0.78 0.03 80);            /* #C7B299 */
-  --silver: oklch(0.84 0.003 0);           /* #D0D0D0 */
-  --lavender: oklch(0.55 0.018 310);       /* #7D7481 */
+  --beige: oklch(0.78 0.03 80);
+  --silver: oklch(0.84 0.003 0);
+  --lavender: oklch(0.55 0.018 310);
 
   --card: oklch(0.18 0 0);
   --card-foreground: oklch(0.965 0.005 95);
@@ -72,7 +71,7 @@
   --ring: oklch(0.78 0.03 80 / 0.5);
 }
 
-.dark { /* same — site is permanently dark */ }
+.dark { }
 
 @layer base {
   * { border-color: var(--color-border); }
@@ -94,7 +93,6 @@
     color: var(--foreground);
   }
 
-  /* Hidden minimalist scrollbar */
   ::-webkit-scrollbar { width: 6px; height: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb {
@@ -119,7 +117,6 @@
 
   .tracking-cinematic { letter-spacing: 0.32em; }
 
-  /* Subtle film grain overlay */
   .grain::before {
     content: "";
     position: fixed;
@@ -131,7 +128,6 @@
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
   }
 
-  /* Ambient radial glow */
   .ambient-glow {
     background: radial-gradient(
       ellipse at center,
@@ -173,10 +169,7 @@
     90% { opacity: 0.4; }
     100% { transform: translateY(-10vh) translateX(20px); opacity: 0; }
   }
-
-  .animate-float-up {
-    animation: float-up linear infinite;
-  }
+  .animate-float-up { animation: float-up linear infinite; }
 
   @keyframes slow-zoom {
     0%, 100% { transform: scale(1); }
