@@ -105,13 +105,13 @@ export function MemoryFragments() {
           </p>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2 className="font-serif max-w-3xl text-4xl leading-[1.08] text-balance md:text-6xl lg:text-7xl">
+          <h2 className="font-serif max-w-3xl text-5xl leading-[1.08] text-balance text-shadow-glow md:text-7xl lg:text-8xl">
             Memory
             <span className="block text-foreground/60 italic">fragments.</span>
           </h2>
         </Reveal>
         <Reveal delay={0.2}>
-          <p className="mt-8 max-w-md leading-relaxed text-muted-foreground">
+          <p className="mt-8 max-w-md text-lg leading-relaxed text-muted-foreground">
             Small frames. Out of order. Each one a thing only the people closest to you would
             recognize.
           </p>

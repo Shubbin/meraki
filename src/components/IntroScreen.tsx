@@ -32,7 +32,7 @@ export function IntroScreen({ onEnter }: { onEnter: () => void }) {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               exit={{ opacity: 0, filter: "blur(10px)" }}
               transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
-              className="font-serif text-2xl leading-relaxed text-foreground/90 italic md:text-3xl lg:text-4xl"
+              className="font-serif text-3xl leading-relaxed text-foreground/90 italic md:text-4xl lg:text-5xl"
             >
               <span className="block">Some people are loud enough to be noticed.</span>
               <span className="mt-3 block text-foreground/70">
@@ -52,7 +52,7 @@ export function IntroScreen({ onEnter }: { onEnter: () => void }) {
               <p className="tracking-cinematic text-xs text-muted-foreground uppercase">
                 for you
               </p>
-              <h1 className="font-serif text-4xl leading-tight text-balance text-foreground text-shadow-glow md:text-6xl lg:text-7xl">
+              <h1 className="font-serif text-5xl leading-tight text-balance text-foreground text-shadow-glow md:text-7xl lg:text-8xl">
                 Happy Birthday,
                 <span className="mt-2 block italic" style={{ color: "var(--beige)" }}>
                   Meraki.

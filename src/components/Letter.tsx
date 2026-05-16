@@ -34,7 +34,7 @@ function TypewriterParagraph({ text, delay = 0 }: { text: string; delay?: number
   }, [inView, text.length, delay]);
 
   return (
-    <p ref={ref} className="font-serif text-xl leading-relaxed text-foreground/90 md:text-2xl">
+    <p ref={ref} className="font-serif text-2xl leading-relaxed text-foreground/90 md:text-3xl lg:text-4xl">
       {text.slice(0, shown)}
       {shown < text.length && (
         <motion.span
@@ -65,7 +65,7 @@ export function Letter() {
           </p>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2 className="font-serif text-center text-4xl leading-[1.05] text-balance italic md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-center text-5xl leading-[1.05] text-balance italic text-shadow-glow md:text-7xl lg:text-8xl">
             For the quiet one,
             <span className="block not-italic text-foreground/70">written slowly.</span>
           </h2>

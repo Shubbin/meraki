@@ -46,14 +46,14 @@ export function HiddenSides() {
           </p>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2 className="font-serif max-w-4xl text-4xl leading-[1.08] text-balance md:text-6xl lg:text-7xl">
+          <h2 className="font-serif max-w-4xl text-5xl leading-[1.08] text-balance text-shadow-glow md:text-7xl lg:text-8xl">
             The sides
             <span className="block text-foreground/60 italic">people don't see.</span>
           </h2>
         </Reveal>
 
         <Reveal delay={0.2}>
-          <p className="mt-10 max-w-xl leading-relaxed text-muted-foreground">
+          <p className="mt-10 max-w-xl text-lg leading-relaxed text-muted-foreground">
             Six small observations, gathered slowly. Not a description, more like the soft outline
             of someone seen carefully, over time.
           </p>
@@ -75,8 +75,8 @@ export function HiddenSides() {
                 </span>
                 <div className="h-px flex-1 bg-divider transition-all duration-700 group-hover:bg-foreground/30" />
               </div>
-              <h3 className="font-serif mt-8 text-3xl leading-tight md:text-4xl">{s.title}</h3>
-              <p className="mt-6 max-w-md leading-relaxed text-muted-foreground">{s.body}</p>
+              <h3 className="font-serif mt-8 text-4xl leading-tight md:text-5xl">{s.title}</h3>
+              <p className="mt-6 max-w-md text-lg leading-relaxed text-muted-foreground">{s.body}</p>
 
               {/* Soft glow on hover */}
               <div

@@ -44,7 +44,7 @@ export function Finale() {
           </p>
         </Reveal>
         <Reveal delay={0.2}>
-          <p className="font-serif text-2xl leading-relaxed text-balance text-foreground/85 italic md:text-4xl lg:text-5xl">
+          <p className="font-serif text-3xl leading-relaxed text-balance text-foreground/85 italic md:text-5xl lg:text-6xl">
             The more I got to know you, the more I realized how much depth exists beneath your
             quietness.
           </p>
@@ -55,13 +55,13 @@ export function Finale() {
         </Reveal>
 
         <Reveal delay={0.7}>
-          <h2 className="font-serif text-5xl leading-tight text-foreground text-shadow-glow md:text-7xl lg:text-8xl">
+          <h2 className="font-serif text-6xl leading-tight text-foreground text-shadow-glow md:text-8xl lg:text-9xl">
             Happy Birthday,
           </h2>
         </Reveal>
         <Reveal delay={0.9}>
           <p
-            className="font-serif mt-4 text-5xl italic md:text-7xl lg:text-8xl"
+            className="font-serif mt-4 text-6xl italic md:text-8xl lg:text-9xl"
             style={{ color: "var(--beige)" }}
           >
             Meraki.

@@ -44,7 +44,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 2, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="font-serif max-w-3xl text-4xl leading-[1.05] text-balance text-foreground md:text-6xl lg:text-7xl"
+            className="font-serif max-w-3xl text-5xl leading-[1.05] text-balance text-foreground text-shadow-glow md:text-7xl lg:text-8xl"
           >
             You don't enter a room.
             <span className="mt-2 block text-foreground/70 italic">
